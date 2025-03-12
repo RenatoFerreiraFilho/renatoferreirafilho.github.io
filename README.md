@@ -29,15 +29,15 @@ O objetivo deste projeto é apresentar meus trabalhos, minhas habilidades e perm
 
 📂 ESTRUTURA DO PROJETO
 
-portfolio/
-│── public/ # Arquivos estáticos (imagens, favicon)
-│── components/ # Componentes reutilizáveis (Header, Hero, Projects, Contact, etc.)
-│── pages/ # Páginas principais do site (Home, Thank You)
-│── styles/ # Estilos globais
-│── .gitignore # Ignora arquivos desnecessários
-│── next.config.js # Configurações do Next.js
-│── tailwind.config.js # Configuração do Tailwind CSS
-│── package.json # Dependências do projeto
+portfolio/  
+│── public/ # Arquivos estáticos (imagens, favicon)  
+│── components/ # Componentes reutilizáveis (Header, Hero, Projects, Contact, etc.)  
+│── pages/ # Páginas principais  
+│── styles/ # Estilos globais  
+│── .gitignore # Ignora arquivos desnecessários  
+│── next.config.js # Configurações do Next.js  
+│── tailwind.config.js # Configuração do Tailwind CSS  
+│── package.json # Dependências do projeto  
 │── README.md # Documentação do projeto
 
 =================================================
@@ -83,7 +83,7 @@ O formulário envia os dados para a **API hospedada no Render**, que processa e 
 
 🔗 **Endpoint da API:** https://portfolio-api.onrender.com/api/contact
 
-O serviço de backend do Render fica indisponível após algum tempo de inatividade, por isso, o primeiro envio de formulário pode demorar cerca de 1 minuto.
+O serviço de backend do Render fica indisponível após algum tempo de inatividade, por isso, o primeiro envio de formulário pode demorar cerca de 1 minuto.  
 Após o primeiro envio, o serviço fica normal.
 
 =================================================

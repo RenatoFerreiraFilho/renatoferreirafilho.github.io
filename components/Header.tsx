@@ -15,7 +15,7 @@ export default function Header() {
     }, []);
 
     return (
-        <header className={`fixed w-full top-0 z-50 transition-all duration-300 ${scrolling ? "bg-black bg-opacity-90 shadow-lg" : "bg-transparent"}`}>
+        <header className={`fixed w-full top-0 z-50  ${menuOpen ? "bg-black bg-opacity-90 shadow-lg" : scrolling ? "transition-all duration-300 bg-black bg-opacity-90 shadow-lg" : "bg-transparent"}`}>
             <div className="max-w-6xl mx-auto flex justify-between items-center p-5">
                 <h1 className="text-xl font-bold">Renato Ferreira</h1>
                 <nav className="hidden md:flex space-x-6">
