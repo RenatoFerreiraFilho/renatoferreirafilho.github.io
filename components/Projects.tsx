@@ -5,14 +5,14 @@ const projects = [
         title: "Quantum - Dashboard APIS",
         description: "Create your login and browse to view data from various public APIs.",
         link: "https://quantum-board.netlify.app/login",
-        image: "/dashboard.png",
+        image: "dashboard.png",
         techs: ["React", "Node.js", "TailwindCSS"],
     },
     {
         title: "New Project",
         description: "Developing the next project to be published.",
         link: "https://github.com/RenatoFerreiraFilho/",
-        image: "/working.jpg",
+        image: "working.jpg",
         techs: ["Next.js", "TypeScript", "Node.js"],
     },
 ];
