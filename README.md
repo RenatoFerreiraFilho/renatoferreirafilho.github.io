@@ -1,39 +1,97 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🚀 Meu Portfólio
 
-## Getting Started
+Este é o meu **portfólio pessoal**, desenvolvido com **Next.js e Tailwind CSS**, e hospedado no **GitHub Pages**.
+O objetivo deste projeto é apresentar meus trabalhos, minhas habilidades e permitir que visitantes entrem em contato comigo.
 
-First, run the development server:
+🔗 **Acesse o portfólio:** https://renatoferreirafilho.github.io/
 
-```bash
+=================================================
+
+🎯 FUNCIONALIDADES
+
+✅ Interface Responsiva: Mobile First.
+✅ Seção de Projetos: Exibição dos principais projetos com detalhes.
+✅ Página de Contato: Formulário funcional integrado com API externa.
+✅ Otimização de Imagens: Uso do next/image para melhor desempenho.
+
+=================================================
+
+🛠️ TECNOLOGIAS UTILIZADAS
+
+-   Next.js - Framework React para aplicações modernas.
+-   Tailwind CSS - Biblioteca CSS para estilização eficiente.
+-   TypeScript - Superset do JavaScript para tipagem segura.
+-   Nodemailer - Biblioteca para envio de emails (usada na API de contato).
+-   Render - Hospedagem da API para envio de mensagens.
+-   GitHub Pages - Hospedagem gratuita do portfólio estático.
+
+=================================================
+
+📂 ESTRUTURA DO PROJETO
+
+portfolio/
+│── public/ # Arquivos estáticos (imagens, favicon)
+│── components/ # Componentes reutilizáveis (Header, Hero, Projects, Contact, etc.)
+│── pages/ # Páginas principais do site (Home, Thank You)
+│── styles/ # Estilos globais
+│── .gitignore # Ignora arquivos desnecessários
+│── next.config.js # Configurações do Next.js
+│── tailwind.config.js # Configuração do Tailwind CSS
+│── package.json # Dependências do projeto
+│── README.md # Documentação do projeto
+
+=================================================
+
+🛠️ COMO RODAR O PROJETO LOCALMENTE
+
+1️⃣ Clone o Repositório:
+git clone https://github.com/RenatoFerreiraFilho/renatoferreirafilho.github.io.git
+cd renatoferreirafilho.github.io
+
+2️⃣ Instale as Dependências:
+npm install
+
+3️⃣ Rode o Servidor Local:
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-<!-- mkdir -p dist
-cp -r out/* dist/ -->
+📌 O projeto estará disponível em http://localhost:3000.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+=================================================
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🌎 IMPLANTAÇÃO
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+O projeto está dividido em duas partes:
 
-## Learn More
+🔹 **Frontend:** Hospedado no **GitHub Pages**  
+🔹 **Backend (API de Contato):** Hospedado no **Render**
 
-To learn more about Next.js, take a look at the following resources:
+Gerando o Build para Produção:
+npm run build
 
--   [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
--   [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Deploy no GitHub Pages:
+cp -r dist/\* caminho/para/renatoferreirafilho.github.io
+cd caminho/para/renatoferreirafilho.github.io
+git add .
+git commit -m "Deploy atualizado"
+git push origin main
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+=================================================
 
-## Deploy on Vercel
+✉️ COMO FUNCIONA O FORMULÁRIO DE CONTATO?
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+O formulário envia os dados para a **API hospedada no Render**, que processa e envia os emails usando **Nodemailer**.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+🔗 **Endpoint da API:** https://portfolio-api.onrender.com/api/contact
+
+O serviço de backend do Render fica indisponível após algum tempo de inatividade, por isso, o primeiro envio de formulário pode demorar cerca de 1 minuto.
+Após o primeiro envio, o serviço fica normal.
+
+=================================================
+
+📜 LICENÇA
+
+Este projeto está sob a **Licença MIT**. Sinta-se à vontade para usar, modificar e compartilhar. 🚀
+
+=================================================
+
+💡 **Desenvolvido por Renato Ferreira** | 💻 Full Stack Developer
