@@ -7,16 +7,16 @@ O objetivo deste projeto é apresentar meus trabalhos, minhas habilidades e perm
 
 =================================================
 
-🎯 FUNCIONALIDADES
+FUNCIONALIDADES
 
-✅ Interface Responsiva: Mobile First.
-✅ Seção de Projetos: Exibição dos principais projetos com detalhes.
-✅ Página de Contato: Formulário funcional integrado com API externa.
-✅ Otimização de Imagens: Uso do next/image para melhor desempenho.
+-   Interface Responsiva: Mobile First.
+-   Seção de Projetos: Exibição dos principais projetos com detalhes.
+-   Página de Contato: Formulário funcional integrado com API externa.
+-   Otimização de Imagens: Uso do next/image para melhor desempenho.
 
 =================================================
 
-🛠️ TECNOLOGIAS UTILIZADAS
+TECNOLOGIAS UTILIZADAS
 
 -   Next.js - Framework React para aplicações modernas.
 -   Tailwind CSS - Biblioteca CSS para estilização eficiente.
@@ -27,7 +27,7 @@ O objetivo deste projeto é apresentar meus trabalhos, minhas habilidades e perm
 
 =================================================
 
-📂 ESTRUTURA DO PROJETO
+ESTRUTURA DO PROJETO
 
 portfolio/  
 │── public/ # Arquivos estáticos (imagens, favicon)  
@@ -42,42 +42,42 @@ portfolio/
 
 =================================================
 
-🛠️ COMO RODAR O PROJETO LOCALMENTE
+COMO RODAR O PROJETO LOCALMENTE
 
-1️⃣ Clone o Repositório:
-git clone https://github.com/RenatoFerreiraFilho/renatoferreirafilho.github.io.git
-cd renatoferreirafilho.github.io
+-   Clone o Repositório:
+    git clone https://github.com/RenatoFerreiraFilho/renatoferreirafilho.github.io.git
+    cd renatoferreirafilho.github.io
 
-2️⃣ Instale as Dependências:
-npm install
+-   Instale as Dependências:
+    npm install
 
-3️⃣ Rode o Servidor Local:
-npm run dev
+-   Rode o Servidor Local:
+    npm run dev
 
 📌 O projeto estará disponível em http://localhost:3000.
 
 =================================================
 
-🌎 IMPLANTAÇÃO
+IMPLANTAÇÃO
 
 O projeto está dividido em duas partes:
 
-🔹 **Frontend:** Hospedado no **GitHub Pages**  
-🔹 **Backend (API de Contato):** Hospedado no **Render**
+-   **Frontend:** Hospedado no **GitHub Pages**
+-   **Backend (API de Contato):** Hospedado no **Render**
 
 Gerando o Build para Produção:
 npm run build
 
 Deploy no GitHub Pages:
-cp -r dist/\* caminho/para/renatoferreirafilho.github.io
-cd caminho/para/renatoferreirafilho.github.io
+cp -r dist/\* caminho/para/aplicacao.github.io
+cd caminho/para/aplicacao.github.io
 git add .
 git commit -m "Deploy atualizado"
 git push origin main
 
 =================================================
 
-✉️ COMO FUNCIONA O FORMULÁRIO DE CONTATO?
+COMO FUNCIONA O FORMULÁRIO DE CONTATO?
 
 O formulário envia os dados para a **API hospedada no Render**, que processa e envia os emails usando **Nodemailer**.
 
@@ -88,10 +88,10 @@ Após o primeiro envio, o serviço fica normal.
 
 =================================================
 
-📜 LICENÇA
+LICENÇA
 
-Este projeto está sob a **Licença MIT**. Sinta-se à vontade para usar, modificar e compartilhar. 🚀
+Este projeto está sob a **Licença MIT**. Sinta-se à vontade para usar, modificar e compartilhar.
 
 =================================================
 
-💡 **Desenvolvido por Renato Ferreira** | 💻 Full Stack Developer
+**Desenvolvido por Renato Ferreira** | 💻 Full Stack Developer
